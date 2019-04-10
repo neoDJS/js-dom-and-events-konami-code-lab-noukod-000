@@ -3,7 +3,8 @@ let count = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-  if (code[count] === e.which){
+  const key = parseInt(e.detail || e.which);
+  if (code[count] === key){
     ++count;
     if (count === code.length){
       alert("Hurray!");
