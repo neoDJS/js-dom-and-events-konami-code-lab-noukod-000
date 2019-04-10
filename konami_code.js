@@ -18,6 +18,6 @@ function init() {
     }
   }
 
-  document.body.ad
+  document.body.addEventListener('click', bubble);
 
 }
