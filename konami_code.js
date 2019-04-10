@@ -18,6 +18,6 @@ function init() {
     }
   }
 
-  document.body.addEventListener('click', bubble);
+  document.body.addEventListener('click', onKeyDownHandler);
 
 }
