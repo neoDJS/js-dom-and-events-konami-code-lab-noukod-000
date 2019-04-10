@@ -4,12 +4,11 @@ let count = 0;
 function init() {
   // Write your JavaScript code inside the init() function
   while (count <= code.length) {
-    
-  }
-  if (code[count] === e.which){
-    ++count;
-  } else {
-    count = 0;
+    if (code[count] === e.which){
+      ++count;
+    } else {
+      count = 0;
+    }
   }
 
 }
