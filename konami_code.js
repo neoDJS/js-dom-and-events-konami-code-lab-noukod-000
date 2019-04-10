@@ -6,7 +6,7 @@ function init() {
   if (code[count] === e.which){
     ++count;
     if (count === code.length){
-      alert("");
+      alert("Hurray!");
       count = 0;
     }
   } else {
